@@ -9,6 +9,8 @@ Does using https://golang.org/pkg/encoding/binary/#Write help us?
 
 No. Perhaps it would if we were writing larger slices of integers.
 
+    go test -bench=. --benchmem
+
 ```
 goos: darwin
 goarch: amd64
